@@ -1,8 +1,6 @@
 package com.example.kiosk.level_5;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 
 /**
  * 키오스크에 들어갈 초기 데이터를 설정해준 후, 키오스크를 실행하는 클래스.
@@ -13,7 +11,6 @@ public class Main {
      * @throws IOException 사용자 입력 중 예외 발생 시 throws
      */
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         // 카테고리와 메뉴 항목 데이터 생성
         Menu Burger = new Menu("Burgers");

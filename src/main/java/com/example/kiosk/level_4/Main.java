@@ -1,10 +1,9 @@
 package com.example.kiosk.level_4;
 
-import java.io.*;
+import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         Menu Burger = new Menu("Burgers");
         Burger.addMenuItem(new MenuItem_3("ShackBurger", 6.9, "토마토, 양상추, 쉑소스가 토핑된 치즈버거"));
         Burger.addMenuItem(new MenuItem_3("SmokeShack", 8.9, "베이컨, 체리 페퍼에 쉑소스가 토핑된 치즈버거"));
