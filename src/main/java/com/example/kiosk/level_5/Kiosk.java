@@ -17,6 +17,7 @@ public class Kiosk {
      * <p>
      * 메뉴 선택, 항목 선택, 프로그램 종료 등의 작업을 포함한다.
      * 입력이 잘못되었을 경우 적절한 오류 메시지를 출력한다.
+     * </p>
      *
      * @throws IOException 입력 처리 중 예외 발생 시 throws
      */
